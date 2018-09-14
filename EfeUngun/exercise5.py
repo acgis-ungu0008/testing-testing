@@ -2,9 +2,9 @@
 ##Input: Acres is 2
 ##Output: Edge length of a <acres> acres square is <z> metres
 
-acre=16187.42
+acre=2
 acretosqm= 4046.86
 edge_length=(acre*acretosqm)**0.5
 
 
-print "%d acre = %.4f metres" % (acre,edge_length)
+print "%d acre = %.d metres" % (acre,edge_length)
